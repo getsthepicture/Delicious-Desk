@@ -6,3 +6,4 @@ A preventive healthcare goal that shows nutritional analytics from calculating t
 - Laurence Wingo <inboxwingo@gmail.com>
 - - -
 To be added as a database administrator, open source contributor, or to receive API Keys please contact Laurence: <inboxwingo@gmail.com>
+You can also sign up for your own API Key with the USDA: https://api.data.gov/signup/
