@@ -3,5 +3,6 @@ A preventive healthcare goal that shows nutritional analytics from calculating t
 
 - - -
 ## Contributors
-- Laurence Wingo <inboxwingo@gmail.com>
+- Laurence Wingo 
+To be added as a database administrator or as an open source contributor, please contact: <inboxwingo@gmail.com>
 - - -
