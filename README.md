@@ -5,4 +5,4 @@ A preventive healthcare goal that shows nutritional analytics from calculating t
 ## Contributors
 - Laurence Wingo <inboxwingo@gmail.com>
 - - -
-To be added as a database administrator or as an open source contributor, please contact Laurence: <inboxwingo@gmail.com>
+To be added as a database administrator, open source contributor, or to receive API Keys please contact Laurence: <inboxwingo@gmail.com>
