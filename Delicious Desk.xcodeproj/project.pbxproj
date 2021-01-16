@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E914973725B38596003B111B /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914973625B38596003B111B /* EndPointType.swift */; };
+		E914973C25B38680003B111B /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914973B25B38680003B111B /* HTTPMethod.swift */; };
+		E914974125B386E7003B111B /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914974025B386E7003B111B /* HTTPTask.swift */; };
+		E914974625B387B8003B111B /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914974525B387B8003B111B /* ParameterEncoding.swift */; };
+		E914974B25B38C25003B111B /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914974A25B38C24003B111B /* URLParameterEncoder.swift */; };
+		E914975025B39E1E003B111B /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914974F25B39E1E003B111B /* JSONParameterEncoder.swift */; };
+		E914975525B39F9C003B111B /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914975425B39F9C003B111B /* NetworkRouter.swift */; };
+		E914975A25B3A0A4003B111B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914975925B3A0A4003B111B /* Router.swift */; };
+		E914977325B3A812003B111B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914977225B3A812003B111B /* NetworkManager.swift */; };
+		E914977825B3AAAD003B111B /* USDA_food_item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914977725B3AAAD003B111B /* USDA_food_item.swift */; };
 		E9B290B025B3791B001AA15B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B290AF25B3791B001AA15B /* AppDelegate.swift */; };
 		E9B290B225B3791B001AA15B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B290B125B3791B001AA15B /* SceneDelegate.swift */; };
 		E9B290B425B3791B001AA15B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B290B325B3791B001AA15B /* ViewController.swift */; };
@@ -35,6 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E914973625B38596003B111B /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		E914973B25B38680003B111B /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		E914974025B386E7003B111B /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		E914974525B387B8003B111B /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		E914974A25B38C24003B111B /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		E914974F25B39E1E003B111B /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		E914975425B39F9C003B111B /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		E914975925B3A0A4003B111B /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		E914977225B3A812003B111B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E914977725B3AAAD003B111B /* USDA_food_item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USDA_food_item.swift; sourceTree = "<group>"; };
 		E9B290AC25B3791B001AA15B /* Delicious Desk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delicious Desk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B290AF25B3791B001AA15B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9B290B125B3791B001AA15B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +96,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E914973125B384F8003B111B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E914973225B3850D003B111B /* EndPoint */,
+				E914973325B38519003B111B /* Manager */,
+				E914973425B38520003B111B /* Service */,
+				E914973525B38527003B111B /* Encoding */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E914973225B3850D003B111B /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				E914973625B38596003B111B /* EndPointType.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		E914973325B38519003B111B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E914977225B3A812003B111B /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		E914973425B38520003B111B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E914973B25B38680003B111B /* HTTPMethod.swift */,
+				E914974025B386E7003B111B /* HTTPTask.swift */,
+				E914975425B39F9C003B111B /* NetworkRouter.swift */,
+				E914975925B3A0A4003B111B /* Router.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E914973525B38527003B111B /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				E914974525B387B8003B111B /* ParameterEncoding.swift */,
+				E914974A25B38C24003B111B /* URLParameterEncoder.swift */,
+				E914974F25B39E1E003B111B /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		E914976625B3A7B1003B111B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E914977725B3AAAD003B111B /* USDA_food_item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E9B290A325B3791A001AA15B = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +175,8 @@
 		E9B290AE25B3791B001AA15B /* Delicious Desk */ = {
 			isa = PBXGroup;
 			children = (
+				E914976625B3A7B1003B111B /* Model */,
+				E914973125B384F8003B111B /* Networking */,
 				E9B290AF25B3791B001AA15B /* AppDelegate.swift */,
 				E9B290B125B3791B001AA15B /* SceneDelegate.swift */,
 				E9B290B325B3791B001AA15B /* ViewController.swift */,
@@ -258,8 +336,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E914977325B3A812003B111B /* NetworkManager.swift in Sources */,
+				E914975A25B3A0A4003B111B /* Router.swift in Sources */,
+				E914974B25B38C25003B111B /* URLParameterEncoder.swift in Sources */,
+				E914974625B387B8003B111B /* ParameterEncoding.swift in Sources */,
+				E914977825B3AAAD003B111B /* USDA_food_item.swift in Sources */,
+				E914974125B386E7003B111B /* HTTPTask.swift in Sources */,
+				E914973725B38596003B111B /* EndPointType.swift in Sources */,
 				E9B290B425B3791B001AA15B /* ViewController.swift in Sources */,
+				E914975025B39E1E003B111B /* JSONParameterEncoder.swift in Sources */,
 				E9B290B025B3791B001AA15B /* AppDelegate.swift in Sources */,
+				E914975525B39F9C003B111B /* NetworkRouter.swift in Sources */,
+				E914973C25B38680003B111B /* HTTPMethod.swift in Sources */,
 				E9B290B225B3791B001AA15B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
